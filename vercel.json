@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/checkout/:match*",
+      "destination": "https://mfe-checkout.vercel.app/:match*"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://mfe-home.vercel.app/:match*"
+    }
+  ]
+}
