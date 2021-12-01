@@ -6,7 +6,7 @@
     },
     {
       "source": "/",
-      "destination": "https://mfe-home.vercel.app/"
+      "destination": "https://mfe-home.vercel.app/home"
     }
   ]
 }
