@@ -9,11 +9,12 @@
   dependencies:
     styled-components "5.3.3"
 
-"@ashkur/teste.ui.nav-bar@^0.0.1":
-  version "0.0.1"
-  resolved "https://node.bit.dev/@ashkur/teste.ui.nav-bar/-/@ashkur-teste.ui.nav-bar-0.0.1.tgz#d29a6e480c7fde3dd9d75786283eb328f038389d"
-  integrity sha1-0ppuSAx/3j3Z11eGKD6zKPA4OJ0=
+"@ashkur/teste.ui.nav-bar@^0.0.2":
+  version "0.0.2"
+  resolved "https://node.bit.dev/@ashkur/teste.ui.nav-bar/-/@ashkur-teste.ui.nav-bar-0.0.2.tgz#b10e3ca3c5d25406134d33f0baf876920f9abdc4"
+  integrity sha1-sQ48o8XSVAYTTTPwuvh2kg+avcQ=
   dependencies:
+    next "12.0.4"
     styled-components "5.3.3"
 
 "@babel/code-frame@7.12.11":
