@@ -5,7 +5,7 @@ import { Card } from "@ashkur/teste.ui.card";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h1>MICRO-FRONTEND HOME 1</h1>
+      <h1>MICRO-FRONTEND HOME 2</h1>
       <Card
         title="SHARED CARD"
         description="Card shared with bit component"
