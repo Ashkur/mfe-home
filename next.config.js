@@ -4,7 +4,7 @@ module.exports = {
     return [
       {
         source: "/",
-        destination: "https://home.nizen.com.br",
+        destination: "https://checkout.nizen.com.br/checkout",
       },
     ];
   },
