@@ -3,8 +3,8 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: "/:path*",
-        destination: "https://home.nizen.com.br/:path*",
+        source: "/",
+        destination: "https://home.nizen.com.br/",
       },
     ];
   },
