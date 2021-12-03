@@ -3,12 +3,8 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: "/",
+        source: "/checkout",
         destination: "https://checkout.nizen.com.br/checkout",
-      },
-      {
-        source: "/:path*",
-        destination: "https://checkout.nizen.com.br/checkout/:path*",
       },
     ];
   },
