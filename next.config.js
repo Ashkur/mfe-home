@@ -1,9 +1,14 @@
 module.exports = {
+  reactStrictMode: true,
   async rewrites() {
     return [
       {
-        source: "/checkout",
-        destination: "https://checkout.nizen.com.br/checkout",
+        source: "/:path*",
+        destination: "/:path*",
+      },
+      {
+        source: "/checkout/:path*",
+        destination: "https://checkout.nizen.com.br/checkout/:path*",
       },
     ];
   },
