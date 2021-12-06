@@ -1,15 +1,13 @@
 module.exports = {
   reactStrictMode: true,
   async rewrites() {
-    return [
-      {
-        source: "/:path*",
-        destination: "/:path*",
-      },
-      {
-        source: "/checkout",
-        destination: "https://checkout.nizen.com.br/checkout",
-      },
-    ];
+    return {
+      fallback: [
+        {
+          source: "/checkout/:path*",
+          destination: "https://checkout.nizen.com.br/checkout/:path*",
+        },
+      ],
+    };
   },
 };
