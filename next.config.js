@@ -11,8 +11,6 @@ module.exports = {
           source: "/checkout/:path*",
           destination: "https://checkout.nizen.com.br/checkout/:path*",
         },
-      ],
-      fallback: [
         {
           source: "/cra",
           destination: "https://my-mf.vercel.app",
