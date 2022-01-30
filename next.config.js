@@ -4,12 +4,12 @@ module.exports = {
     return {
       fallback: [
         {
-          source: "/checkout",
-          destination: "https://checkout.nizen.com.br/checkout",
+          source: "/",
+          destination: "https://checkout.nizen.com.br",
         },
         {
           source: "/checkout/:path*",
-          destination: "https://checkout.nizen.com.br/checkout/:path*",
+          destination: "https://checkout.nizen.com.br/:path*",
         },
         {
           source: "/cra",
