@@ -4,7 +4,7 @@ module.exports = {
     return {
       fallback: [
         {
-          source: "/",
+          source: "/checkout",
           destination: "https://checkout.nizen.com.br/checkout",
         },
         {
