@@ -13,11 +13,11 @@ module.exports = {
         },
         {
           source: "/cra",
-          destination: "https://my-mf.vercel.app",
+          destination: "https://my-mf.vercel.app/cra",
         },
         {
           source: "/cra/:path*",
-          destination: "https://my-mf.vercel.app/:path*",
+          destination: "https://my-mf.vercel.app/cra/:path*",
         },
       ],
     };
