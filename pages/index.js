@@ -1,6 +1,7 @@
 import styles from "../styles/Home.module.css";
 
-// import { Card } from "@ashkur/teste.ui.card";
+import { Teste } from "@evob/evob.ui.teste/dist/teste";
+
 
 import Link from 'next/link'
 
@@ -16,6 +17,10 @@ export default function Home() {
       <button onClick={saveToken}>save token</button>
 
       <Link href="/cra">go to cra</Link>
+      
+      <Teste>
+        Hello World!
+      </Teste>
     </div>
   );
 }
