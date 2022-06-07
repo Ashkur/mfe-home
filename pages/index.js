@@ -13,6 +13,10 @@ export default function Home() {
     router.push('/checkout')
   }
 
+  const redirectToCheckoutForm = () => {
+    router.push('/checkout/form')
+  }
+
   const saveToken = () => {
     localStorage.setItem('token', 'eyJhbGciOiJIUzI1NiJ9.eyJhdCI6IjIwMjItMDEtMzBUMTY6Mjc6MjIrMDA6MDAiLCJ1c2VyX2lkIjpudWxsLCJlbWFpbCI6InVyaWVsQGV2b2IuY29tLmJyIn0.Q9uwNDWuqwqhOA4VLdk9PhW0ePKspwHAHVtqpF8RouQ')
   }
@@ -26,6 +30,8 @@ export default function Home() {
       <button onClick={saveToken}>save token</button>
 
       <button onClick={redirectToCheckout}>Redirect to checkout</button>
+
+      <button onClick={redirectToCheckoutForm}>Redirect to checkout form</button>
 
       <Link href="/cra">go to cra</Link>
       
