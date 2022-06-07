@@ -8,11 +8,11 @@ module.exports = {
           destination: "https://checkout.nizen.com.br",
         },
         {
-          source: "/checkout/form",
+          source: "/form",
           destination: "https://checkout.nizen.com.br/form",
         },
         {
-          source: "/checkout/form-result",
+          source: "/form-result",
           destination: "https://checkout.nizen.com.br/form-result",
         },
         {
