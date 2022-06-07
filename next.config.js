@@ -12,7 +12,7 @@ module.exports = {
           destination: "https://checkout.nizen.com.br/form",
         },
         {
-          source: "/checkout/form-result*",
+          source: "/checkout/form-result",
           destination: "https://checkout.nizen.com.br/form-result",
         },
         {
