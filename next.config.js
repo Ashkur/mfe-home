@@ -16,6 +16,10 @@ module.exports = {
           destination: "https://checkout.nizen.com.br/form-result",
         },
         {
+          source: "/slug/:path*",
+          destination: "https://checkout.nizen.com.br/slug/:path*",
+        },
+        {
           source: "/cra",
           destination: "https://cra.nizen.com.br/cra",
         },
