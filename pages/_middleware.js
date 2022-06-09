@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
 export function middleware(req) {
-    console.log(req.nexUrl.href)
+    if(req.nextUrl.href.includes('/slug'))
     return NextResponse.next()
 }
