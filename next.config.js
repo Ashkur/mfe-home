@@ -35,7 +35,7 @@ module.exports = {
       {
         source: "/slug/:path*",
         headers: [{
-          'Host': 'checkout.nizen.com.br'
+          'host': 'checkout.nizen.com.br'
         }]
       }
     ]
