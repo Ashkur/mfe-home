@@ -6,6 +6,9 @@ module.exports = {
         {
           source: "/checkout",
           destination: "https://checkout.nizen.com.br",
+          headers: [{
+            'Host': 'checkout.nizen.com.br'
+          }]
         },
         {
           source: "/form",
